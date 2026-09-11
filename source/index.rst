@@ -6,10 +6,9 @@
 demoutrei's utilities
 =====================
 
-Nothing to see here yet... :eyes:
-
 
 .. toctree::
     :maxdepth: 1
+    :caption: Tools
 
     timestamp
