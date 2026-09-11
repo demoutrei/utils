@@ -10,6 +10,6 @@ Nothing to see here yet... :eyes:
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 1
 
+    timestamp

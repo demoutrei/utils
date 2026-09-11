@@ -14,11 +14,20 @@ author = 'demoutrei'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+  "jupyter_sphinx",
   "shibuya",
   "sphinx_contributors",
   "sphinx_design",
-  "sphinx_tabs.tabs"
+  "sphinx_tabs.tabs",
+  "sphinx_thebe"
 ]
+
+jupyter_sphinx_thebelab_config = {
+  "requestKernel": True,
+  "binderOptions": {
+    "repo": "binder-examples/requirements"
+  }
+}
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -49,4 +58,7 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_css_files = [ "custom.css" ]
+html_js_files = [
+  "timestampConverter.js"
+]
 html_title = "demoutrei's utilities"
