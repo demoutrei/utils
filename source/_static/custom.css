@@ -41,3 +41,7 @@
 .thebelab-button {
   display: none;
 }
+
+th > p, td > p {
+  text-align: center;
+}

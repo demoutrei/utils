@@ -12,3 +12,4 @@ demoutrei's utilities
     :caption: Tools
 
     timestamp
+    truth_table
